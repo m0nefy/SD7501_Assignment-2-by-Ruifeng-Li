@@ -1,0 +1,17 @@
+@model Book
+@{ ViewData["Title"] = "Book details"; }<div class="form-shell">
+  <a asp-action="Index">&larr; Back to books</a>
+  <p class="eyebrow mt-4">BOOK DETAILS</p>
+  <h1>@Model.Title</h1>
+  <p class="lead">by @Model.Author</p>
+  <hr />
+  <dl class="row">
+    <dt class="col-sm-4">Category</dt>
+    <dd class="col-sm-8">@Model.Category?.Name</dd>
+    <dt class="col-sm-4">ISBN</dt>
+    <dd class="col-sm-8">@Model.ISBN</dd>
+    <dt class="col-sm-4">Stock</dt>
+    <dd class="col-sm-8">@Model.AvailableCopies available of @Model.TotalCopies</dd>
+  </dl>
+<a asp-controller="Loans" asp-action="Create" class="btn btn-primary">Borrow this book</a>
+</div>
