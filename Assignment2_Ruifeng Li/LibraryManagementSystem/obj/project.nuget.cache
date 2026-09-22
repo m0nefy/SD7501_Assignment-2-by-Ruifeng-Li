@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fo1yOVf3OFg=",
+  "dgSpecHash": "Fgm7JSI54Yc=",
   "success": true,
-  "projectFilePath": "D:\\文档\\nzwork\\web\\Assignment2\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+  "projectFilePath": "D:\\文档\\nzwork\\web\\Assignment2\\Assignment2_Ruifeng Li\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\25369\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\25369\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
