@@ -1,0 +1,10 @@
+@model Book
+@{ ViewData["Title"] = "Delete book"; }<div class="form-shell">
+  <p class="eyebrow">CONFIRM ACTION</p>
+  <h1>Delete @Model.Title?</h1>
+  <p class="text-muted">This action is only allowed when the book has no loan histories.</p>
+  <form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button class="btn btn-danger">Delete book</button> <a asp-action="Index" class="btn btn-link">Cancel</a>
+  </form>
+</div>
